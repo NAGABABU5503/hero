@@ -1,0 +1,19 @@
+using system;
+class A
+{
+static void main()
+{
+console.writeline("Enter a number");
+int a=int.parse(console.ReadLine());
+for(int i=1;i<=5;i++)
+{
+if(i%2==0)
+{
+console.writeline("Even");
+}
+else
+{
+console.writeline("Odd");
+}
+}
+}
